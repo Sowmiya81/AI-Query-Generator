@@ -1,0 +1,2 @@
+﻿# QueryQuick
+# QueryQuick

@@ -1,0 +1,102 @@
+{
+    "authors_history": {
+        "_id": "object",
+        "author_id": "number",
+        "author_name": "string",
+        "nationality": "string",
+        "birth_date": "string",
+        "death_date": "object"
+    },
+    "books": {
+        "_id": "object",
+        "book_id": "number",
+        "title": "string",
+        "author": "string",
+        "isbn": "string",
+        "publication_date": "string",
+        "genre": "string",
+        "available": "boolean"
+    },
+    "courses": {
+        "_id": "object",
+        "course_id": "number",
+        "course_name": "string",
+        "department_id": "number",
+        "credits": "number",
+        "instructor_id": "number"
+    },
+    "attendance": {
+        "_id": "object",
+        "attendance_id": "number",
+        "class_id": "number",
+        "student_id": "number",
+        "date": "string",
+        "status": "string"
+    },
+    "students": {
+        "_id": "object",
+        "student_id": "number",
+        "first_name": "string",
+        "last_name": "string",
+        "date_of_birth": "string",
+        "address": "string",
+        "email": "string",
+        "phone_number": "string"
+    },
+    "enrollments": {
+        "_id": "object",
+        "enrollment_id": "number",
+        "student_id": "number",
+        "course_id": "number",
+        "enrollment_date": "string"
+    },
+    "authors": {
+        "_id": "object",
+        "author_id": "number",
+        "author_name": "string",
+        "nationality": "string",
+        "birth_date": "string",
+        "death_date": "object"
+    },
+    "bookmarks": {
+        "_id": "object",
+        "bookmark_id": "number",
+        "member_id": "number",
+        "book_id": "number",
+        "page_number": "number",
+        "bookmark_date": "string"
+    },
+    "classes": {
+        "_id": "object",
+        "class_id": "number",
+        "course_id": "number",
+        "instructor_id": "number",
+        "room_number": "string",
+        "schedule": "string"
+    },
+    "departments": {
+        "_id": "object",
+        "department_id": "number",
+        "department_name": "string",
+        "head_instructor_id": "number"
+    },
+    "book_authors": {
+        "_id": "object",
+        "book_id": "number",
+        "author_id": "number"
+    },
+    "book_copies": {
+        "_id": "object",
+        "copy_id": "number",
+        "book_id": "number",
+        "location": "string",
+        "status": "string"
+    },
+    "assignments": {
+        "_id": "object",
+        "assignment_id": "number",
+        "class_id": "number",
+        "assignment_name": "string",
+        "due_date": "string"
+    }
+}
